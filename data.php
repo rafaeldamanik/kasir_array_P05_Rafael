@@ -38,6 +38,12 @@ $daftarProduk = [
         'harga' => 12000,
         'stok' => 12,
     ],
+    [
+    'kode' => 'BRG006',
+    'nama' => 'Pensil',
+    'harga' => 4000,
+    'stok' => 25,
+    ],
 ];
 
 $keranjang = [
@@ -58,5 +64,11 @@ $keranjang = [
         'nama' => $daftarProduk[2]['nama'],
         'harga' => $daftarProduk[2]['harga'],
         'jumlah' => 2,
+    ],
+    [
+    'kode' => $daftarProduk[5]['kode'],
+    'nama' => $daftarProduk[5]['nama'],
+    'harga' => $daftarProduk[5]['harga'],
+    'jumlah' => 2,
     ],
 ];
